@@ -1,8 +1,8 @@
 var recipes = {
   recipes: "type of"};
 
-function updateObjectWithKeyAndValue(dog, key, value) {
-  return Object.assign({}, dog, { [key]: value });
+function updateObjectWithKeyAndValue(object, key, value) {
+  return Object.assign({}, object, { [key]: value });
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
